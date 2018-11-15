@@ -2,4 +2,21 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Add New Post
+
+  // Wrapper
+  #wrapper
+
+    // POST LIST
+    h2 Post List
+    #postList
+      table
+        thead
+          th Description
+          th Created_date
+          th Like_count
+          th Comment_count
+        tbody
+    // /POST LIST
+
+  // /WRAPPER
